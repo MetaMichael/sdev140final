@@ -89,7 +89,7 @@ class ToDoList(EasyFrame):
         tasks = self.tasks.get(0, length)
         print(tasks)
 
-        with open(name + ".txt", "w") as file:
+        with open(name + ".tdl", "w") as file:
             for task in tasks:
                 file.write(str(task) + "\n")
 
